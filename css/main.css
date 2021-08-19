@@ -1,0 +1,102 @@
+body{
+    color: white;
+}
+section{ 
+    background: linear-gradient(to right , #111 60% , #bbb);
+}
+.hr { 
+    width: 40%;
+    height: 3px;
+    background: linear-gradient(to right , #111 , rgb(86, 245, 205) , #111);
+    margin: auto;
+    border-radius: 50%;
+}
+hr { 
+    margin-top: 20px;
+    width: 30%;
+}
+i { 
+    color: black;
+}
+.i2 { 
+    color: white;
+}
+.about-header h1{ 
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+}
+.navbar { 
+    background: linear-gradient(to right , #111 60% , #bbb );
+}
+.profile-header {
+    font-family: 'Cookie', cursive;
+    font-size: 55px;
+    margin: 60px;
+}
+.navbar li a { 
+    color: rgb(86, 245, 205);
+    font-family: cursive;
+    margin: 5px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.navbar ul a:hover{ 
+    background: rgba(124, 124, 112, 0.993);
+    border-radius: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: 30px;
+}
+.aboutcontent{ 
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    
+}
+.nav-link { 
+    margin-top: 30px;
+    
+}
+
+.social-icons .img { 
+    width: 20%;
+    height: 20px;
+}
+
+.col-md-4 img{ 
+    border-radius: 8%;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.nav-tabs { 
+    width: 50%;
+    margin: 20px auto;
+    font-size: 30px;
+    border-radius: 20px;
+    border-bottom: none;
+}
+.nav-tabs a { 
+    color: white;
+}
+.nav a:hover {
+    border-radius: 60px;
+}
+@media (max-width : 600px) { 
+    .nav-tabs { 
+        width:90%;
+        margin: auto;
+        font-size: 17px;
+    }
+}
+.order { 
+    color: rgb(86, 245, 205);
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+}
+h6 { 
+    color: rgb(86, 245, 205);
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+}
